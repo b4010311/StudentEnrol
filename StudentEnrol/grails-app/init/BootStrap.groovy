@@ -81,6 +81,32 @@ password: 'password',
 
 course: 'Computing').save()
 
+
+def lecturer1= new Lecturer( name:'Tonderai',
+
+post: 'Anything',
+
+email: 'Tonderai@my.shu.ac.uk',
+
+department: 'Computing',
+
+subject: 'Web Architectures',
+
+research: 'Anything').save()
+
+
+def lecturer2= new Lecturer( name:'Steve',
+
+post: 'SAP',
+
+email: 'Steve@my.shu.ac.uk',
+
+department: 'Computing',
+
+subject: 'Enterprise Information Systems',
+
+research: 'SAP').save()
+
     }
 
     def destroy = {
