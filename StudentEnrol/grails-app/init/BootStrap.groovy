@@ -147,6 +147,17 @@ office: 'Room 5231',
 bio: '''Lorem ipsum dolor sit amet, an ullum epicurei definitionem''').save()
 
 
+def module1 = new Module( title: 'Web Architectures',
+
+code: 'WA234',
+
+credits: 5,
+
+lecturer:'Dr Steve Crossbar',
+
+description: '''Lorem ipsum dolor sit amet, ludus contentiones ut nam, quaeque dolores facilisi in nec''').save()
+
+
     }
 
     def destroy = {
