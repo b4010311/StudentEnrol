@@ -107,6 +107,46 @@ subject: 'Enterprise Information Systems',
 
 research: 'SAP').save()
 
+
+def leader1= new Leader( fullName:'Dr Anne Roberts',
+
+post: 'Senior Lecturer',
+
+subject: 'Animation',
+
+email: 'a.d.roberts@theUni.ac.uk',
+
+office: 'Room 1234',
+
+bio: '''Lorem ipsum dolor sit amet, an ullum epicurei definitionem''').save()
+
+
+def leader2= new Leader( fullName:'Tonderai',
+
+post: 'Senior Lecturer',
+
+subject: 'Web Architectures',
+
+email: 'Tonderai@theUni.ac.uk',
+
+office: 'Room 5231',
+
+bio: '''Lorem ipsum dolor sit amet, an ullum epicurei definitionem''').save()
+
+
+def leader3= new Leader( fullName:'Lynne Dawson',
+
+post: 'Senior Lecturer',
+
+subject: 'Enterprise Information Systems',
+
+email: 'l.dawson@theUni.ac.uk',
+
+office: 'Room 5231',
+
+bio: '''Lorem ipsum dolor sit amet, an ullum epicurei definitionem''').save()
+
+
     }
 
     def destroy = {
