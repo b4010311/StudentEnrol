@@ -18,6 +18,8 @@ startDate: new Date('19/01/2015'),
 
 endDate: new Date('19/01/2020')).save()
 
+
+
 def course2= new Course( title:'Web Architectures',
 
 department: 'Computing',
@@ -32,6 +34,8 @@ startDate: new Date('19/01/2015'),
 
 endDate: new Date('19/01/2016')).save()
 
+
+
 def course3= new Course( title:'Enterprise Information Systems',
 
 department: 'Computing',
@@ -45,6 +49,37 @@ code: 'EIS105',
 startDate: new Date('19/01/2016'),
 
 endDate: new Date('19/01/2017')).save()
+
+
+
+def student1= new Student( name:'Frank Sekyere',
+
+studentid: 'B4019796',
+
+dob: ('19/04/1995'),
+
+email: 'B4019796@my.shu.ac.uk',
+
+username: 'F.Sekyere',
+
+password: 'password',
+
+course: 'Computing').save()
+
+
+def student2= new Student( name:'Shabaz Khalid',
+
+studentid: 'B4010311',
+
+dob: ('15/02/1996'),
+
+email: 'B4010311@my.shu.ac.uk',
+
+username: 'S.Khalid',
+
+password: 'password',
+
+course: 'Computing').save()
 
     }
 
